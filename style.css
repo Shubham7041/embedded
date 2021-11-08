@@ -21,7 +21,7 @@ body {
 }
 .search {
   background-color: #363636;
-  color: #313131;
+  color: #c4c4c4;
   border: #363636;
   padding: 0;
   height: 35px;
@@ -37,6 +37,10 @@ body {
 .search_icon {
   width: 22px;
   height: 22px;
+}
+.defaultprofile {
+  height: 43px;
+  width: 45px;
 }
 #video {
   display: flex;
