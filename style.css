@@ -2,8 +2,10 @@ body {
   color: #eee;
   margin: 0;
 }
-#navbar {
+.flex {
   display: flex;
+}
+#navbar {
   justify-content: space-between;
   align-items: center;
   padding: 0.5em;
@@ -12,7 +14,6 @@ body {
   background-color: #202020;
 }
 #menu {
-  display: inherit;
   align-items: center;
   gap: 8px;
 }
@@ -24,7 +25,6 @@ h3 {
   height: 35px;
 }
 #searchbar {
-  display: inherit;
   align-items: center;
 }
 .search {
@@ -52,17 +52,43 @@ h3 {
   width: 45px;
 }
 #video {
-  display: flex;
   justify-content: space-between;
   height: 42em;
-  background-color: #931cca;
+  background-color: #2b2a2a;
 }
 #videosection {
-  width: 80em;
+  margin-left: 130px;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 70em;
   padding: 0.75em;
+  background-color: #2b2a2a;
+}
+#videotitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#title_bar {
+  padding-bottom: 6px;
+  border-bottom: 2px solid #444444;
+  width: 900px;
+  justify-content: space-between;
+}
+#share_box {
+  gap: 2px;
+  width: 240px;
+  justify-content: flex-end;
+}
+.box {
+  text-align: center;
+  border-bottom: 2px solid white;
+  font-size: 20px;
+  height: 20px;
+  width: 80px;
 }
 #sidebar {
-  width: 20em;
+  width: 30em;
   padding: 0.75em;
   background-color: #931cca;
 }

@@ -8,8 +8,8 @@
     <title>Embedded</title>
   </head>
   <body>
-    <header id="navbar">
-      <div id="menu">
+    <header id="navbar" class="flex">
+      <div id="menu" class="flex">
         <img src="./photos/menu-bar-png.png" alt="menu_img" class="menu_icon" />
         <img
           src="photos/youtube-logo.png"
@@ -18,7 +18,7 @@
         />
         <h3>Youtube</h3>
       </div>
-      <div id="searchbar">
+      <div id="searchbar" class="flex">
         <input class="search" type="text" value="Search" />
         <button type="submit" class="search_button">
           <img
@@ -47,8 +47,29 @@
         />
       </div>
     </header>
-    <section id="video">
-      <div id="videosection">Video Section</div>
+    <section id="video" class="flex">
+      <div id="videosection" class="flex">
+        <iframe
+          width="900"
+          height="555"
+          src="https://www.youtube.com/embed/lEEmORyxpho"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <div id="videotitle" class="flex">
+          <h4>EVE ONLINE AMBIENT MUSIC</h4>
+          <div id="title_bar" class="flex">
+            <div id="views">1,22,300 Views • 17 Dec 2012</div>
+            <div id="share_box" class="flex">
+              <div class="box">Like</div>
+              <div class="box">Dislike</div>
+              <div class="box">Share</div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div id="sidebar">Sidebar</div>
     </section>
   </body>
