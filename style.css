@@ -1,4 +1,5 @@
 body {
+  font-family: Arial, Helvetica, sans-serif;
   color: #eee;
   margin: 0;
 }
@@ -9,7 +10,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0.5em;
-  height: 40px;
+  height: 60px;
   width: 1503px;
   background-color: #202020;
 }
@@ -57,10 +58,9 @@ h3 {
   background-color: #2b2a2a;
 }
 #videosection {
-  margin-left: 130px;
   flex-direction: column;
-  align-items: flex-start;
-  width: 70em;
+  align-items: flex-end;
+  width: 65em;
   padding: 0.75em;
   background-color: #2b2a2a;
 }
@@ -70,18 +70,18 @@ h3 {
   justify-content: center;
 }
 #title_bar {
+  text-align: center;
   padding-bottom: 6px;
   border-bottom: 2px solid #444444;
   width: 900px;
   justify-content: space-between;
 }
 #share_box {
-  gap: 2px;
+  gap: 8px;
   width: 240px;
   justify-content: flex-end;
 }
 .box {
-  text-align: center;
   border-bottom: 2px solid white;
   font-size: 20px;
   height: 20px;
@@ -89,6 +89,24 @@ h3 {
 }
 #sidebar {
   width: 30em;
-  padding: 0.75em;
-  background-color: #931cca;
+  padding-top: 12px;
+  background-color: #2b2a2a;
+}
+.thumbnail {
+  height: 100px;
+}
+.recommendation {
+  margin-top: 10px;
+  gap: 8px;
+  width: 400px;
+  height: 100px;
+}
+.recom-title {
+  margin: 12px 0;
+  font-size: 18px;
+  font-weight: 200;
+}
+.views {
+  color: #c4c4c4;
+  font-size: 12px;
 }
